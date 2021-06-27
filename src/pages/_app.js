@@ -8,7 +8,7 @@ import Nav from 'components/Nav'
 
 function MyApp({ Component, pageProps }) {
   return (
-    <div className="">
+    <div>
       <Head>
       <title>Series of Blurs - Video Games &amp; Horror Movies</title>
         {/* <script async="" defer="" data-website-id="963aa68d-acc9-432b-9dda-16324088a789" src="https://umami-kalani.vercel.app/umami.js"></script> */}
@@ -19,11 +19,10 @@ function MyApp({ Component, pageProps }) {
         <meta property="og:image" content="#" key="image" />
         <meta property="og:description" content="VIdeo Games and Horror Movies." type="description" />
       </Head>
-      <div>
+      
         <Nav />
         <Component {...pageProps} />
-      </div>
-      <Footer />
+      
     </div>
   ) 
 }
