@@ -8,7 +8,7 @@ import Nav from 'components/Nav'
 
 function MyApp({ Component, pageProps }) {
   return (
-    <div>
+    <div className="h-screen bg-maroon-oak-500">
       <Head>
       <title>Series of Blurs - Video Games &amp; Horror Movies</title>
         {/* <script async="" defer="" data-website-id="963aa68d-acc9-432b-9dda-16324088a789" src="https://umami-kalani.vercel.app/umami.js"></script> */}

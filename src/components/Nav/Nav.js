@@ -8,7 +8,7 @@ function classNames(...classes) {
 
 export default function Nav() {
     return (
-        <Disclosure as="nav" className="bg-maroon-oak-500">
+        <Disclosure as="nav">
             {({ open }) => (
                 <>
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
