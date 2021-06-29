@@ -1,10 +1,8 @@
 import 'styles/global.css'
 import Head from 'next/head'
-import Footer from 'components/Footer'
 
 import siteConfig from '../../site.config'
 
-import Nav from 'components/Nav'
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -19,8 +17,7 @@ function MyApp({ Component, pageProps }) {
         <meta property="og:image" content="#" key="image" />
         <meta property="og:description" content="VIdeo Games and Horror Movies." type="description" />
       </Head>
-      
-        <Nav />
+
         <Component {...pageProps} />
       
     </div>
