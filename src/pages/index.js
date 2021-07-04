@@ -13,7 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
     <div className="">
-            <div className="relative h-screen bg-gradient-to-t from-blue-charcoal-700">
+            <div className="relative h-full sm:h-screen bg-maroon-oak-700 sm:bg-transparent bg-gradient-to-t from-blue-charcoal-700">
             
             <div className="absolute right-auto sm:right-0 w-full sm:w-1/2">
                 <img
@@ -156,7 +156,7 @@ export default function Home() {
                     <div className="flex-1 min-w-0">
                         <a href="https://www.instagram.com/seriesofblurs/" className="focus:outline-none" title="Follow Series of Blurs on Instagram">
                         <span class="absolute inset-0" aria-hidden="true"></span>
-                        <h2 className="text-white font-sporting text-3xl">Instgram</h2>
+                        <h2 className="text-white font-sporting text-3xl">Instagram</h2>
                         <p className="text-white font-sporting">11.3K <span className="font-spacemono">Followers</span></p>
                         </a>
                     </div>

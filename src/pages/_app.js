@@ -3,10 +3,9 @@ import Head from 'next/head'
 
 import siteConfig from '../../site.config'
 
-
 function MyApp({ Component, pageProps }) {
   return (
-    <div className="h-screen bg-maroon-oak-500">
+    <div className="bg-maroon-oak-500" style={{"min-height":"-webkit-fill-available","max-height":"-webkit-fill-available"}}>
       <Head>
       <title>Series of Blurs - Video Games &amp; Horror Movies</title>
         {/* <script async="" defer="" data-website-id="963aa68d-acc9-432b-9dda-16324088a789" src="https://umami-kalani.vercel.app/umami.js"></script> */}
@@ -24,4 +23,4 @@ function MyApp({ Component, pageProps }) {
   ) 
 }
 
-export default MyApp
+export default MyApp;
