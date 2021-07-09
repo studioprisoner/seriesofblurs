@@ -127,7 +127,7 @@ export default function Movies() {
                             <div className="clear-both" />
                         </div>
                         </div>
-                        <div className="bg-scarlet-500 rounded-lg p-5 sm:w-2/5 mt-6">
+                        <div className="bg-scarlet-500 rounded-lg p-5 sm:w-1/6 mt-6">
                             <h3 className="text-blue-charcoal-500 font-sporting text-3xl">2000's</h3>
                             <ul className="m-auto text-white text-xs font-spacemono list-none">
                                 <li className="float-left block w-full">The Ring</li>
