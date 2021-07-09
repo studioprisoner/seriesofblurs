@@ -28,7 +28,7 @@ export default function Nav() {
                             Movies
                             </a>
                             <a
-                            href="#"
+                            href="/work"
                             className="text-white hover:text-scarlet-500 px-3 py-2 text-lg font-sporting"
                             >
                             Work With Me
@@ -85,7 +85,7 @@ export default function Nav() {
                                 Movies
                             </a>
                             <a
-                                href="/movies"
+                                href="/work"
                                 className="text-white block pl-3 pr-4 py-2 text-base hover:text-scarlet-500 font-sporting"
                             >
                                 Work With Me
