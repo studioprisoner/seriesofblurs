@@ -39,7 +39,7 @@ export default function Home() {
                 <p className="mt-6 max-w-3xl text-xl text-white font-spacemono">Follow Series of Blurs for all your horror movie suggestions. This is the place to be for everyone who loves video games,  ghosts, aliens, monsters, flesh-eating-zombies and much more.</p>
                 <div class="py-6">
                   <a
-                    href="#" 
+                    href="/work" 
                     className="w-full sm:w-1/2 flex justify-center py-2 px-4 border border-transparent rounded-2xl text-white bg-scarlet-500 hover:bg-scarlet-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-scarlet-500 font-sporting">
                     Work With Me
                 </a>
