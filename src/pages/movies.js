@@ -11,7 +11,7 @@ export default function Movies() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
-            <div className="2xl:h-screen bg-maroon-oak-500 bg-transparent bg-gradient-to-t from-blue-charcoal-700">
+            <div className="2xl:h-full bg-maroon-oak-500 bg-transparent bg-gradient-to-t from-blue-charcoal-700">
                 <Nav />
                 <main className="max-w-7xl mx-auto py-4 px-4 sm:py-6 sm:px-6 lg:px-8 lg:flex">
                     <div className="">

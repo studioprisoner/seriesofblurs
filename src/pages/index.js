@@ -12,7 +12,6 @@ export default function Home() {
       </Head>
     <div className="">
             <div className="relative h-full sm:h-screen bg-maroon-oak-700 sm:bg-transparent bg-gradient-to-t from-blue-charcoal-700">
-            
             <div className="absolute right-auto sm:right-0 w-full sm:w-1/2">
                 <img
                     className="w-full h-screen object-cover"
@@ -55,8 +54,8 @@ export default function Home() {
                     <div className="flex-1 min-w-0">
                         <a href="https://www.twitch.tv/seriesofblurs/" className="focus:outline-none" title="Follow Series of Blurs on Twitch">
                         <span class="absolute inset-0" aria-hidden="true"></span>
-                        <h2 className="text-white font-poppins text-3xl">Twitch</h2>
-                        <p className="text-white font-poppins">33.3K <span className="font-spacemono">Followers</span></p>
+                        <h2 className="text-white font-poppins font-extrabold uppercase text-3xl">Twitch</h2>
+                        <p className="text-white font-poppins font-medium">33.3K <span className="font-spacemono">Followers</span></p>
                         </a>
                     </div>
                 </div>
@@ -67,8 +66,8 @@ export default function Home() {
                     <div className="flex-1 min-w-0">
                         <a href="https://www.instagram.com/seriesofblurs/" className="focus:outline-none" title="Follow Series of Blurs on Instagram">
                         <span class="absolute inset-0" aria-hidden="true"></span>
-                        <h2 className="text-white font-poppins text-3xl">Instagram</h2>
-                        <p className="text-white font-poppins">11.3K <span className="font-spacemono">Followers</span></p>
+                        <h2 className="text-white font-poppins font-extrabold uppercase text-3xl">Instagram</h2>
+                        <p className="text-white font-poppins font-medium">11.3K <span className="font-spacemono">Followers</span></p>
                         </a>
                     </div>
                 </div>
@@ -79,8 +78,8 @@ export default function Home() {
                     <div className="flex-1 min-w-0">
                         <a href="https://twitter.com/seriesofblursx" className="focus:outline-none" title="Follow Sereis of Blurs on Twitter">
                         <span class="absolute inset-0" aria-hidden="true"></span>
-                        <h2 className="text-white font-poppins text-3xl">Twitter</h2>
-                        <p className="text-white font-poppins">4.1K <span className="font-spacemono">Followers</span></p>
+                        <h2 className="text-white font-poppins font-extrabold uppercase text-3xl">Twitter</h2>
+                        <p className="text-white font-poppins font-medium">4.1K <span className="font-spacemono">Followers</span></p>
                         </a>
                     </div>
                 </div>
