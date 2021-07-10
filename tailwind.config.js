@@ -9,7 +9,7 @@ module.exports = {
   theme: {
     fontFamily: {
       'spacemono': ['Spacemono', 'sans-serif'],
-      'sporting': ['Sporting', 'sans-serif']
+      'poppins': ['Poppins', 'sans-serif']
     },
     extend: {
       backgroundImage: theme => ({

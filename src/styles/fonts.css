@@ -6,8 +6,29 @@
 }
 
 @font-face {
-    font-family: "Sporting";
-    src: url("/fonts/SportingGrotesque-Regular.otf");
+    font-family: "poppins";
+    src: url("/fonts/poppinsGrotesque-Regular.otf");
     font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Poppins";
+    src: url("/fonts/Poppins-Regular.ttf");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Poppins";
+    src: url("/fonts/Poppins-Medium.ttf");
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Poppins";
+    src: url("/fonts/Poppins-ExtraBold");
+    font-style: normal;
+    font-weight: 800;
     font-display: swap;
 }

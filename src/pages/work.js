@@ -125,9 +125,9 @@ export default function Work() {
                                     <img className="h-32 w-32 sm:h-40 sm:w-40 rounded-l-lg object-cover" src={igposts.imageUrl} alt={igposts.name} />
                                 </div>
                                 <div className="flex-1 min-w-0">
-                                    <h3 className="font-sporting text-white text-lg sm:text-xl">{igposts.name}</h3>
-                                    <h3 className="font-sporting text-white text-lg sm:text-xl">{igposts.name2}</h3>
-                                    <p className="font-sporting text-xs sm:text-base text-blue-charcoal-500">{igposts.hashtag}</p>
+                                    <h3 className="font-poppins text-white text-lg sm:text-xl">{igposts.name}</h3>
+                                    <h3 className="font-poppins text-white text-lg sm:text-xl">{igposts.name2}</h3>
+                                    <p className="font-poppins text-xs sm:text-base text-blue-charcoal-500">{igposts.hashtag}</p>
                                     <FaInstagram className="h-6 w-6 text-white" />
                                 </div>
                             </div>

@@ -22,14 +22,14 @@ export default function Movies() {
                         />
                     </div>
                     <div className="flex-grow py-4 sm:py-20 px-10">
-                        <h2 className="text-scarlet-500 font-sporting tracking-tight text-5xl">Movies</h2>
+                        <h2 className="text-scarlet-500 font-poppins tracking-tight text-5xl">Movies</h2>
                         <p className="text-white font-spacemono">I have kept track of some of the best horror movies and came up with a curated list below. This list is constantly updated so make sure you keep coming back to check it out.</p>
                     </div>
                 </main>
                 <section>
                 <div className="max-w-7xl mx-auto px-8">
                         <div className="bg-scarlet-500 rounded-lg p-5">
-                            <h3 className="text-blue-charcoal-500 font-sporting text-3xl">Modern</h3>
+                            <h3 className="text-blue-charcoal-500 font-poppins text-3xl">Modern</h3>
                             <ul className="m-auto text-white text-xs font-spacemono list-none">
                                 <li className="float-left block w-2/4 sm:w-1/5">Hereditary</li>
                                 <li className="float-left block w-2/4 sm:w-1/5">The Witch</li>
@@ -79,7 +79,7 @@ export default function Movies() {
                         </div>
                         <div className="grid grid-cols-none sm:grid-cols-3 gap-4 mt-6">
                         <div className="bg-scarlet-500 rounded-lg p-5">
-                            <h3 className="text-blue-charcoal-500 font-sporting text-3xl">Foreign</h3>
+                            <h3 className="text-blue-charcoal-500 font-poppins text-3xl">Foreign</h3>
                             <ul className="m-auto text-white text-xs font-spacemono list-none">
                                 <li className="float-left block w-2/4">Backbone</li>
                                 <li className="float-left block w-2/4">A Tale of Two Sisters</li>
@@ -102,7 +102,7 @@ export default function Movies() {
                             <div className="clear-both" />
                         </div>
                         <div className="bg-scarlet-500 rounded-lg p-5">
-                            <h3 className="text-blue-charcoal-500 font-sporting text-3xl">Classics</h3>
+                            <h3 className="text-blue-charcoal-500 font-poppins text-3xl">Classics</h3>
                             <ul className="m-auto text-white text-xs font-spacemono list-none">
                                 <li className="float-left block w-full">Alien</li>
                                 <li className="float-left block w-full">The Shining</li>
@@ -116,7 +116,7 @@ export default function Movies() {
                             <div className="clear-both" />
                         </div>
                         <div className="bg-scarlet-500 rounded-lg p-5">
-                            <h3 className="text-blue-charcoal-500 font-sporting text-3xl">The 90's</h3>
+                            <h3 className="text-blue-charcoal-500 font-poppins text-3xl">The 90's</h3>
                             <ul className="m-auto text-white text-xs font-spacemono list-none">
                                 <li className="float-left block w-full">Bram Strokers Dracula: Interview With A Vampire</li>
                                 <li className="float-left block w-full">The Faculty</li>
@@ -128,7 +128,7 @@ export default function Movies() {
                         </div>
                         </div>
                         <div className="bg-scarlet-500 rounded-lg p-5 sm:w-1/6 mt-6">
-                            <h3 className="text-blue-charcoal-500 font-sporting text-3xl">2000's</h3>
+                            <h3 className="text-blue-charcoal-500 font-poppins text-3xl">2000's</h3>
                             <ul className="m-auto text-white text-xs font-spacemono list-none">
                                 <li className="float-left block w-full">The Ring</li>
                                 <li className="float-left block w-full">28 Days Later</li>

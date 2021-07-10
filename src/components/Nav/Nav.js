@@ -18,18 +18,18 @@ export default function Nav() {
                         <div className="hidden sm:block sm:ml-6">
                         <div className="flex space-x-4">
                             {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
-                            <a href="/" className="text-white px-3 py-2 text-lg font-sporting">
+                            <a href="/" className="text-white px-3 py-2 text-lg font-poppins">
                             Home
                             </a>
                             <a
                             href="/movies"
-                            className="text-white hover:text-scarlet-500 px-3 py-2 text-lg font-sporting"
+                            className="text-white hover:text-scarlet-500 px-3 py-2 text-lg font-poppins"
                             >
                             Movies
                             </a>
                             <a
                             href="/work"
-                            className="text-white hover:text-scarlet-500 px-3 py-2 text-lg font-sporting"
+                            className="text-white hover:text-scarlet-500 px-3 py-2 text-lg font-poppins"
                             >
                             Work With Me
                             </a>
@@ -74,19 +74,19 @@ export default function Nav() {
                         <div className="pt-2 pb-3 space-y-1">
                             <a
                                 href="/"
-                                className="text-white block pl-3 pr-4 py-2 text-base hover:text-scarlet-500 font-sporting"
+                                className="text-white block pl-3 pr-4 py-2 text-base hover:text-scarlet-500 font-poppins"
                             >
                                 Home
                             </a>
                             <a
                                 href="/movies"
-                                className="text-white block pl-3 pr-4 py-2 text-base hover:text-scarlet-500 font-sporting"
+                                className="text-white block pl-3 pr-4 py-2 text-base hover:text-scarlet-500 font-poppins"
                             >
                                 Movies
                             </a>
                             <a
                                 href="/work"
-                                className="text-white block pl-3 pr-4 py-2 text-base hover:text-scarlet-500 font-sporting"
+                                className="text-white block pl-3 pr-4 py-2 text-base hover:text-scarlet-500 font-poppins"
                             >
                                 Work With Me
                             </a>
