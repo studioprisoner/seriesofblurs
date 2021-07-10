@@ -1,15 +1,78 @@
 import Head from 'next/head'
 import Nav from 'components/Nav'
 import Footer from 'components/Footer'
+import { FaInstagram } from 'react-icons/fa'
+
+const posts = [
+    {
+        name: '@2k',
+        hashtag: '#borderlands',
+        imageUrl: '/images/igposts/2k_borderlands.jpg',
+    },
+    {
+        name: '@alienwareoz',
+        name2: '@killercoffee',
+        hashtag: null,
+        imageUrl: '/images/igposts/alienware_killercoffee.jpg',
+    },
+    {
+        name: '@alienware',
+        name2: null,
+        hashtag: '#PAX',
+        imageUrl: '/images/igposts/alienware_pax.jpg',
+    },
+    {
+        name: '@alienware',
+        name2: null,
+        hashtag: null,
+        imageUrl: '/images/igposts/alienware.jpg',
+    },
+    {
+        name: '@bandainamcoau',
+        name2: null,
+        hashtag: null,
+        imageUrl: '/images/igposts/bandainamcoau.jpg',
+    },
+    {
+        name: '@brightburnmovie',
+        name2: '@viewinglounge',
+        hashtag: '#FirdayFrightNight',
+        imageUrl: '/images/igposts/brightburnmovie.jpg',
+    },
+    {
+        name: '@DiDiAustralia',
+        name2: null,
+        hashtag: null,
+        imageUrl: '/images/igposts/didiaustralia.jpg',
+    },
+    {
+        name: '@EAInisder',
+        name2: null,
+        hashtag: '#StarWarsJediFallenOrder',
+        imageUrl: '/images/igposts/eainsider.jpg',
+    },
+    {
+        name: '@PlayStationAU',
+        name2: null,
+        hashtag: '#Returnal',
+        imageUrl: '/images/igposts/playstationau.jpg',
+    },
+    {
+        name: '@UniversalpicsAU',
+        name2: null,
+        hashtag: '#UsMovie',
+        imageUrl: '/images/igposts/usmovie.jpg',
+    },
+]
 
 export default function Work() {
     return (
-        <div>
+        <div className="bg-maroon-oak-500">
             <Head>
                 <title>Series of Blurs - Work with me</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <div className="2xl:h-screen bg-maroon-oak-500 bg-transparent bg-gradient-to-t from-blue-charcoal-700">
+            <div className="2xl:h-full bg-maroon-oak-500 bg-transparent bg-gradient-to-t from-blue-charcoal-700">
                 <Nav />
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex max-w-7xl mx-auto justify-center">
@@ -51,6 +114,25 @@ export default function Work() {
                         </div>
                     </div>
                 </div>
+                <section className="max-w-7xl mx-auto px-4 py-10">
+                    <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 2xl:grid-cols-3">
+                        {posts.map((igposts) => (
+                            <div
+                                key={igposts.name}
+                                className="relative rounded-lg bg-scarlet-500 flex items-center space-x-3"
+                            >
+                                <div className="flex-shrink-0">
+                                    <img className="h-40 w-40 rounded-l-lg object-cover" src={igposts.imageUrl} alt={igposts.name} />
+                                </div>
+                                <div className="flex-1 min-w-0">
+                                    <h3 className="font-sporting text-white text-lg sm:text-xl">{igposts.name}</h3>
+                                    <h3 className="font-sporting text-white text-lg sm:text-xl">{igposts.name2}</h3>
+                                    <p className="font-sporting text-xs sm:text-base text-blue-charcoal-500">{igposts.hashtag}</p>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+                </section>
                 <Footer />
             </div>
         </div>
