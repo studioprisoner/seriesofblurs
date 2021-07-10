@@ -122,12 +122,13 @@ export default function Work() {
                                 className="relative rounded-lg bg-scarlet-500 flex items-center space-x-3"
                             >
                                 <div className="flex-shrink-0">
-                                    <img className="h-40 w-40 rounded-l-lg object-cover" src={igposts.imageUrl} alt={igposts.name} />
+                                    <img className="h-32 w-32 sm:h-40 sm:w-40 rounded-l-lg object-cover" src={igposts.imageUrl} alt={igposts.name} />
                                 </div>
                                 <div className="flex-1 min-w-0">
                                     <h3 className="font-sporting text-white text-lg sm:text-xl">{igposts.name}</h3>
                                     <h3 className="font-sporting text-white text-lg sm:text-xl">{igposts.name2}</h3>
                                     <p className="font-sporting text-xs sm:text-base text-blue-charcoal-500">{igposts.hashtag}</p>
+                                    <FaInstagram className="h-6 w-6 text-white" />
                                 </div>
                             </div>
                         ))}
