@@ -4,13 +4,13 @@ export default function Reach() {
 
     return (
         <div>
-            <div className="max-w-7xl mx-auto w-full pb-20 px-4 lg:py-12">
-                        <h2 className="font-poppins text-white text-6xl uppercase">Reach</h2>
+            <div className="max-w-7xl mx-auto w-full pb-20 px-4 lg:py-6">
+                        <h2 className="font-poppins text-white font-bold text-6xl uppercase">Reach</h2>
                         <dl className="mt-5 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
                             <a href="https://twitch.com/seriesofblurs">
                             <div className="relative bg-scarlet-500 pt-5 px-5 sm:pt-6 sm:px-6 shadow rounded-lg overflow-hidden">
                                 <dt>
-                                    <div className="absolute bg-white rounded-md p-3">
+                                    <div className="absolute bg-white text-scarlet-500 rounded-md p-3">
                                         <FaTwitch className="h-6 w-6" />
                                     </div>
                                     <p className="ml-16 text-sm font-medium font-spacemono text-white truncate">Total Followers</p>
@@ -23,7 +23,7 @@ export default function Reach() {
                             <a href="https://instagram.com/seriesofblurs">
                             <div className="relative bg-scarlet-500 pt-5 px-5 sm:pt-6 sm:px-6 shadow rounded-lg overflow-hidden">
                                 <dt>
-                                    <div className="absolute bg-white rounded-md p-3">
+                                    <div className="absolute bg-white text-scarlet-500 rounded-md p-3">
                                         <FaInstagram className="h-6 w-6" />
                                     </div>
                                     <p className="ml-16 text-sm font-medium font-spacemono text-white truncate">Total Followers</p>
@@ -36,7 +36,7 @@ export default function Reach() {
                             <a href="https://twitter.com/seriesofblursx">
                             <div className="relative bg-scarlet-500 pt-5 px-5 sm:pt-6 sm:px-6 shadow rounded-lg overflow-hidden">
                                 <dt>
-                                    <div className="absolute bg-white rounded-md p-3">
+                                    <div className="absolute bg-white text-scarlet-500 rounded-md p-3">
                                         <FaTwitter className="h-6 w-6" />
                                     </div>
                                     <p className="ml-16 text-sm font-medium font-spacemono text-white truncate">Total Followers</p>
