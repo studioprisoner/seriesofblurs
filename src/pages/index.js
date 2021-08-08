@@ -6,12 +6,12 @@ import Footer from 'components/Footer'
 export default function Home() {
 
     return (
-        <div className="bg-maroon-oak-700 bg-gradient-to-t from-blue-charcoal-700">
+        <div className="bg-maroon-oak-700 bg-gradient-to-t from-blue-charcoal-700 min-h-screen">
             <Head>
                 <title>Series of Blurs</title>
             </Head>
             <Nav />
-            <main className="max-w-7xl grid grid-cols-1 sm:grid-cols-2 px-4">
+            <main className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 px-4">
                 <div>
                     <img
                         src="images/blurs_logo_2line.png"

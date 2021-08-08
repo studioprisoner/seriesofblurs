@@ -4,7 +4,7 @@ export default function MovieList() {
             <section>
                 <div className="max-w-7xl mx-auto sm:py-20 px-8">
                         <div className="bg-scarlet-500 rounded-lg p-5">
-                            <h3 className="text-blue-charcoal-500 font-poppins font-semibold uppercase  font-semibold uppercase text-3xl">Modern</h3>
+                            <h3 className="text-blue-charcoal-500 font-poppins font-semibold uppercase text-3xl">Modern</h3>
                             <ul className="m-auto text-white text-xs font-spacemono list-none">
                                 <li className="float-left block w-2/4 sm:w-1/5">Hereditary</li>
                                 <li className="float-left block w-2/4 sm:w-1/5">The Witch</li>
