@@ -7,6 +7,9 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx}'],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    borderWidth: {
+      '20': '20px'
+    },
     fontFamily: {
       'spacemono': ['Spacemono', 'sans-serif'],
       'poppins': ['Poppins', 'sans-serif']
