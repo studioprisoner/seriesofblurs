@@ -12,7 +12,7 @@ export default function Movies() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <Nav />
-            <div className="max-w-7xl bg-maroon-oak-500 bg-transparent bg-gradient-to-t from-blue-charcoal-700">
+            <div className="max-w-7xl mx-auto bg-maroon-oak-500 bg-transparent bg-gradient-to-t from-blue-charcoal-700">
                 <div className="h-56 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2 ">
                     <img src="/images/blurs_logo_2line.png" alt="" />
                 </div>
