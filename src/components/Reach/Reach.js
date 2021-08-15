@@ -4,8 +4,8 @@ export default function Reach() {
 
     return (
         <div>
-            <div className="max-w-7xl mx-auto w-full pb-20 px-4 lg:py-6">
-                        <h2 className="font-poppins text-white font-bold text-6xl uppercase">Reach</h2>
+            <div className="max-w-7xl mx-auto w-full pb-10 px-4 py-6">
+                        <h2 className="font-poppins text-white text-center sm:text-right font-bold text-6xl uppercase">Reach</h2>
                         <dl className="mt-5 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
                             <a href="https://twitch.com/seriesofblurs">
                             <div className="relative bg-scarlet-500 pt-5 px-5 sm:pt-6 sm:px-6 shadow rounded-lg overflow-hidden">

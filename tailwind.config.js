@@ -17,6 +17,8 @@ module.exports = {
     extend: {
       backgroundImage: theme => ({
         'film-reel': "url('images/film-reel.png')",
+        'hero-img': "url('/images/mia-transparent.png')",
+        'mia-background': "url('/images/mia-background.png')",
       }),
       colors: {
         'maroon-oak': {

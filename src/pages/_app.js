@@ -5,7 +5,7 @@ import siteConfig from '../../site.config'
 
 function MyApp({ Component, pageProps }) {
   return (
-    <div className="bg-maroon-oak-700 bg-gradient-to-t from-blue-charcoal-700" style={{"min-height":"-webkit-fill-available","max-height":"-webkit-fill-available"}}>
+    <div className="bg-maroon-oak-700 bg-gradient-to-t from-blue-charcoal-700 min-h-full" style={{"min-height":"-webkit-fill-available","max-height":"-webkit-fill-available"}}>
       <Head>
       <title>Series of Blurs - Video Games &amp; Horror Movies</title>
         {/* <script async="" defer="" data-website-id="963aa68d-acc9-432b-9dda-16324088a789" src="https://umami-kalani.vercel.app/umami.js"></script> */}
