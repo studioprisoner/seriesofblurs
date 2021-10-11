@@ -1,16 +1,11 @@
-import Head from 'next/head'
-import Nav from 'components/Nav'
+import Layout from 'components/Layout'
 import Reach from 'components/Reach'
 import Footer from 'components/Footer'
 
 export default function Home() {
 
     return (
-        <div className="h-screen bg-fixed bg-left bg-cover bg-no-repeat bg-mia-background overflow-y-auto">
-            <Head>
-                <title>Sereies of Blurs</title>
-            </Head>
-            <Nav />
+        <Layout>
             <main>
                 <div className="mx-auto max-w-7xl w-full">
                     <div className="flex justify-end">
@@ -38,6 +33,6 @@ export default function Home() {
             </main>
             <Reach />
             <Footer />
-        </div>
+        </Layout>
     )
 }

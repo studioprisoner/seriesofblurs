@@ -6,12 +6,6 @@
 }
 
 @font-face {
-    font-family: "poppins";
-    src: url("/fonts/poppinsGrotesque-Regular.otf");
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
     font-family: "Poppins";
     src: url("/fonts/Poppins-Regular.ttf");
     font-style: normal;

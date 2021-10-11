@@ -1,0 +1,278 @@
+[
+    {
+        "id": 1,
+        "listName": "Modern",
+        "divClass": "col-span-3 bg-scarlet-500 h-auto rounded-lg p-5 my-4",
+        "movies": [
+            {
+                "name": "Hereditary"
+            },
+            {
+                "name": "Green Room"
+            },
+            {
+                "name": "Midsommar"
+            },
+            {
+                "name": "Under The Skin"
+            },
+            {
+                "name": "Under The Skin"
+            },
+            {
+                "name": "IT"
+            },
+            {
+                "name": "Oculas"
+            },
+            {
+                "name": "The Conjuring"
+            },
+            {
+                "name": "The Eyes of my Mother"
+            },
+            {
+                "name": "Geralds's Game"
+            },
+            {
+                "name": "The Witch"
+            },
+            {
+                "name": "Get Out"
+            },
+            {
+                "name": "Don't Breath"
+            },
+            {
+                "name": "Annihilation"
+            },
+            {
+                "name": "The Autopsy of Jane Doe"
+            },
+            {
+                "name": "Honeymoon"
+            },
+            {
+                "name": "Insidious"
+            },
+            {
+                "name": "Unsane"
+            },
+            {
+                "name": "Housebound"
+            },
+            {
+                "name": "Black Swan"
+            },
+            {
+                "name": "Raw"
+            },
+            {
+                "name": "Evil Dead (remake)"
+            },
+            {
+                "name": "You're Next"
+            },
+            {
+                "name": "Happy Death Day"
+            },
+            {
+                "name": "The Visit"
+            },
+            {
+                "name": "The Woman"
+            },
+            {
+                "name": "Overlord"
+            },
+            {
+                "name": "The Loved Ones"
+            },
+            {
+                "name": "Babadook"
+            },
+            {
+                "name": "It Follows"
+            },
+            {
+                "name": "Doctor Sleep"
+            },
+            {
+                "name": "Starry Eyes"
+            },
+            {
+                "name": "The Invitation"
+            },
+            {
+                "name": "The Ritual"
+            },
+            {
+                "name": "Blackcoat's Daughter"
+            },
+            {
+                "name": "Crawl"
+            },
+            {
+                "name": "Us"
+            },
+            {
+                "name": "A Quiet Place"
+            },
+            {
+                "name": "Cabin In The Woods"
+            },
+            {
+                "name": "We Need to Talk About Kevin"
+            },
+            {
+                "name": "10 Cloverfield Lane"
+            },
+            {
+                "name": "Mother!"
+            },
+            {
+                "name": "The Monster"
+            },
+            {
+                "name": "Ready or Not"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "listName": "Foreign",
+        "divClass": "bg-scarlet-500 h-auto rounded-lg p-5 my-4",
+        "movies":
+        [
+            {
+                "name": "Backbone"
+            },
+            {
+                "name": "The Host"
+            },
+            {
+                "name": "Sleep Tight"
+            },
+            {
+                "name": "Under The Shadow"
+            },
+            {
+                "name": "Let The Right One In"
+            },
+            {
+                "name": "Pans Labyrinth"
+            },
+            {
+                "name": "Inside"
+            },
+            {
+                "name": "Martyrs"
+            },
+            {
+                "name": "The Devils"
+            },
+            {
+                "name": "A Tale of Two Sisters"
+            },
+            {
+                "name": "The Wailing"
+            },
+            {
+                "name": "Troll Hunter"
+            },
+            {
+                "name": "REC"
+            },
+            {
+                "name": "I Saw The Devil"
+            },
+            {
+                "name": "Train to Busan"
+            },
+            {
+                "name": "High Tension"
+            },
+            {
+                "name": "The Orphanage"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "listName": "Classics",
+        "divClass": "bg-scarlet-500 h-auto rounded-lg p-5 my-4",
+        "movies":[
+            {
+                "name": "Alien"
+            },
+            {
+                "name": "The Shining"
+            },
+            {
+                "name": "Rosemarys Baby"
+            },
+            {
+                "name": "The Thing"
+            },
+            {
+                "name": "Halloween"
+            },
+            {
+                "name": "Texas Chainsaw Massacre"
+            },
+            {
+                "name": "Nightmare on Elm Stream"
+            },
+            {
+                "name": "Jaws"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "listName": "The 90's",
+        "divClass": "bg-scarlet-500 h-auto rounded-lg p-5 my-4",
+        "movies": [
+            {
+                "name": "Bram Strokers Dracula: Interview With A Vampire"
+            },
+            {
+                "name": "The Faculty"
+            },
+            {
+                "name": "Misery"
+            },
+            {
+                "name": "Scream"
+            },
+            {
+                "name": "Urban Legend"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "listName": "2000s",
+        "divClass": "bg-scarlet-500 h-auto rounded-lg p-5 my-4",
+        "movies": [
+            {
+                "name": "The Ring"
+            },
+            {
+                "name": "28 Days Later"
+            },
+            {
+                "name": "The Decent"
+            },
+            {
+                "name": "The Strangers"
+            },
+            {
+                "name": "The Others"
+            },
+            {
+                "name": "Funny Game"
+            }
+        ]
+    }
+]
