@@ -1,11 +1,8 @@
 import Head from 'next/head'
-import Nav from 'components/Nav'
 import Layout from 'components/Layout'
-import Link from 'next/link'
 import { fetchAPI } from 'lib/api'
-import genres from './genres/[slug]'
 
-export default function Movies({ genres }) {
+export default function Movies({ categories }) {
     
     return (
         <div className="bg-maroon-oak-500">
@@ -14,10 +11,10 @@ export default function Movies({ genres }) {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <Layout>
-                <div className="mx-auto bg-maroon-oak-500 bg-transparent bg-gradient-to-t from-blue-charcoal-700">
-                    <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap=4">
+                <div className="mx-auto">
+                    <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-4">
                         <div>
-                            <img src="/blurs_logo_2line.png" alt="Series of Blurs"/>
+                            <img src="images/blurs_logo_2line.png" alt="Series of Blurs"/>
                         </div>
                         <div className="px-4 py-20 sm:px-6 lg:px-8 lg:py-16">
                             <div>
@@ -27,20 +24,15 @@ export default function Movies({ genres }) {
                         </div>
                     </div>
                     <section>
-                        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-                        {genres.map((genre) => {
-                            return (
-                                <div key={genre.id} className="elative rounded-lg border border-gray-300 bg-scarlet-500 px-6 py-5 shadow-sm flex items-center space-x-3 hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500">
-                                    <div className="flex-1 min-w-0">
-                                        <Link as={`/genres/${genre.slug}`} href="/genres/[id]">
-                                            <a className="focus:outline-none">
-                                            <span className="absolute inset-0" aria-hidden="true" />
-                                            <p className="text-base text-white font-bold">{genre.title}</p></a>
-                                        </Link>
+                        <div className=" max-w-7xl mx-auto mt-4 grid grid-cols-1 sm:grid-cols-3 gap-4">
+                            {categories.map((category) => {
+                                return (
+                                    <div key={category.id}
+                                        className="p-5 bg-scarlet-500 rounded-md">
+                                        <h1 className="font-poppins font-bold text-2xl uppercase text-blue-charcoal-500">{category.name}</h1>
                                     </div>
-                                </div>
-                            )
-                        })}
+                                )
+                            })}
                         </div>
                     </section>
                 </div>
@@ -52,13 +44,13 @@ export default function Movies({ genres }) {
 
 export async function getStaticProps() {
 
-    const [genres, movies] = await Promise.all([
-        fetchAPI("/genres"),
-        fetchAPI("/movies"),
+    const [categories, movies] = await Promise.all([
+        fetchAPI('/categories'),
+        fetchAPI('/movies')
     ])
 
     return {
-        props: { genres, movies },
+        props: { categories, movies},
         revalidate: 1,
     }
 }
