@@ -22,7 +22,7 @@ export default function Categories({ category }) {
                         </div>
                     </div>
                     <section>
-                        {category.title}
+                        {category.name}
                     </section>
                 </div>
             </Layout>
