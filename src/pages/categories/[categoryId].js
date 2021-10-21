@@ -1,6 +1,4 @@
-import { fetchAPI } from "lib/api"
-
-export default function Categories({  category }) {
+export default function Categories({ category }) {
     return (
         <div>
             <h1>{category.title}</h1>
@@ -8,12 +6,23 @@ export default function Categories({  category }) {
     )
 }
 
-export async function getStaticPaths() {
-    const categories = await fetch('http://localhost:8082/categories/').then(r => r.json());
+
+export async function getStaticProps({ params }) {
+    const categoryId = params.characterId
+    const results = await fetch(`https://seriesofblurs-cms.herokuapp.com/categories/${params.categoryId}`).then(res => res.json())
 
     return {
+        props: {
+            category: results
+        }
+    }
+}
+
+export async function getStaticPaths() {
+    const categories = await fetch('https://seriesofblurs-cms.herokuapp.com/categories').then(res => res.json());
+    return {
         paths: categories.map(category => {
-            const categoryId = category.name.toLowerCase();
+            const categoryId = category.slug
             return {
                 params: {
                     categoryId
@@ -21,16 +30,6 @@ export async function getStaticPaths() {
             }
         }),
         fallback: false
-    }
-}
-
-export async function getStaticProps({ params }) {
-    const results = await fetch(`http://localhost:8082/categories/${params.categoryId}`).then(r => r.json())
-
-    return {
-        props: {
-            category: results
-        }
     }
 }
 

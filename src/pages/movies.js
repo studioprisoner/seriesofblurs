@@ -25,11 +25,13 @@ export default function Movies({ categories }) {
                     </div>
                     <section>
                         <div className=" max-w-7xl mx-auto mt-4 grid grid-cols-1 sm:grid-cols-3 gap-4">
-                            {categories.map((category) => {
+                            {categories.map(category => {
                                 return (
-                                    <div key={category.id}
-                                        className="p-5 bg-scarlet-500 rounded-md">
-                                        <h1 className="font-poppins font-bold text-2xl uppercase text-blue-charcoal-500">{category.name}</h1>
+                                    <div
+                                    key={category.id}
+                                    className="p-5 rounded-lg bg-scarlet-500 text-center"
+                                    >
+                                        <h1 className="font-poppins font-bold text-white uppercase text-3xl">{category.name}</h1>
                                     </div>
                                 )
                             })}
@@ -43,14 +45,13 @@ export default function Movies({ categories }) {
 }
 
 export async function getStaticProps() {
+    const categories = await fetch('https://seriesofblurs-cms.herokuapp.com/categories/').then(res => res.json());
 
-    const [categories, movies] = await Promise.all([
-        fetchAPI('/categories'),
-        fetchAPI('/movies')
-    ])
+    console.log(categories);
 
     return {
-        props: { categories, movies},
-        revalidate: 1,
+      props: {
+        categories
+      }
     }
-}
+  }
