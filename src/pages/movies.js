@@ -29,7 +29,7 @@ export default function Movies({ categories }) {
                                 return (
                                     <Link
                                         key={category.id}
-                                        href={`/categories/${category.name.toLowerCase()}`}
+                                        href={`/categories/${category.slug}`}
                                     >
                                         <a className="relative">
                                             <div className="inset-0">
