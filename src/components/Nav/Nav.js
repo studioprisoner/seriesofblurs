@@ -40,15 +40,15 @@ export default function Nav() {
                         <div className="flex items-center">
                         <div className="hidden sm:ml-6 sm:block">
                             <div className="flex items-center">
-                                <a href="#" className="p-5 rounded-full text-white hover:text-scarlet-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-scarlet-500">
+                                <a href="https://twitch.com/seriesofblurs" className="p-5 rounded-full text-white hover:text-scarlet-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-scarlet-500">
                                     <span className="sr-only">Twitch</span>
                                     <FaTwitch className="h-6 w-6" ayarnria-hidden="true" />
                                 </a>
-                                <a href="#" className="p-5 text-white hover:text-scarlet-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-scarlet-500">
+                                <a href="https://twitter.com/seriesofblursx" className="p-5 text-white hover:text-scarlet-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-scarlet-500">
                                     <span className="sr-only">Twitter</span>
                                     <FaTwitter className="h-6 w-6" ayarnria-hidden="true" />
                                 </a>
-                                <a href="#" className="p-5 text-white hover:text-scarlet-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-scarlet-500">
+                                <a href="https://instagram.com/seriesofblurs" className="p-5 text-white hover:text-scarlet-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-scarlet-500">
                                     <span className="sr-only">Instagram</span>
                                     <FaInstagram className="h-6 w-6" ayarnria-hidden="true" />
                                 </a>

@@ -1,7 +1,9 @@
 import Head from 'next/head'
 import Nav from 'components/Nav'
 import Footer from 'components/Footer'
+import Link from 'next/link'
 import { FaInstagram } from 'react-icons/fa'
+import { MailIcon } from '@heroicons/react/outline'
 
 const posts = [
     {
@@ -85,6 +87,12 @@ export default function work() {
                     </p>
                     <p className="mt-3 text-base font-spacemono text-gray-300">
                     I'm a content creator and social media influencer. I work with brands and companies to help them reach their target audience through social media and content creation. If you have any questions about what I can offer you, or about working together on a project, don't hesitate to contact me!
+                    </p>
+                    <p className="mt-3 text-base font-poppins text-white">
+                    <MailIcon className="h-8 w-8 inline-block pr-2" />
+                    <Link href="mailto:seriesofblursx@gmail.com">
+                    <a className="font-poppins uppercase font-bold">seriesofblursx@gmail.com</a>
+                    </Link>
                     </p>
                     </div>
                 </div>

@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Layout from 'components/Layout'
+import Link from 'next/link'
 import { fetchAPI } from 'lib/api'
 
 export default function Movies({ categories }) {
@@ -23,19 +24,29 @@ export default function Movies({ categories }) {
                             </div>
                         </div>
                     </div>
-                    <section>
-                        <div className=" max-w-7xl mx-auto mt-4 grid grid-cols-1 sm:grid-cols-3 gap-4">
+                    <section className="max-w-7xl mx-auto mt-8 px-4 grid grid-cols-1 sm:grid-cols-3 gap-4">
                             {categories.map(category => {
                                 return (
-                                    <div
-                                    key={category.id}
-                                    className="p-5 rounded-lg bg-scarlet-500 text-center"
+                                    <Link
+                                        key={category.id}
+                                        href={`/categories/${category.name.toLowerCase()}`}
                                     >
-                                        <h1 className="font-poppins font-bold text-white uppercase text-3xl">{category.name}</h1>
-                                    </div>
+                                        <a className="relative">
+                                            <div className="inset-0">
+                                                <img
+                                                src={category.imagename}
+                                                className="w-full h-full object-center object-cover rounded-lg"
+                                                />
+                                            </div>
+                                            <div className="absolute inset-x-0 bottom-0 p-6 rounded-bl-lg rounded-br-lg sm:flex sm:items-center sm:justify-between lg:inset-y-0 lg:inset-x-auto lg:w-96 lg:rounded-tl-lg lg:rounded-br-none lg:flex-col lg:items-start">
+                                            <div>
+                                                <h2 className="font-poppins font-bold uppercase text-4xl text-white">{category.name}</h2>
+                                            </div>
+                                        </div>
+                                        </a>                                    
+                                    </Link>
                                 )
                             })}
-                        </div>
                     </section>
                 </div>
             </Layout>
@@ -46,8 +57,6 @@ export default function Movies({ categories }) {
 
 export async function getStaticProps() {
     const categories = await fetch('https://seriesofblurs-cms.herokuapp.com/categories/').then(res => res.json());
-
-    console.log(categories);
 
     return {
       props: {

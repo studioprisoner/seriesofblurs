@@ -32,7 +32,6 @@ export default function Home() {
                 </div>
             </main>
             <Reach />
-            <Footer />
         </Layout>
     )
 }

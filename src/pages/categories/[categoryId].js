@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Layout from 'components/Layout'
 
-export default function Categories({ category }) {
+export default function Categories({ category, movies }) {
     return (
         <div className="bg-maroon-oak-500">
             <Head>
@@ -21,8 +21,17 @@ export default function Categories({ category }) {
                             </div>
                         </div>
                     </div>
-                    <section>
-                        {category.name}
+                    <section className="max-w-7xl mx-auto py-20 px-4">
+                        <div className="px-4 bg-scarlet-500 rounded-lg">
+                            <h1 className="font-poppins uppercase font-bold text-4xl text-blue-charcoal-500">{category.name}</h1>
+                            <ul className="mt-4 grid grid-cols-1 sm:grid-cols-3 gap-1">
+                                {category.movies.map(movie => {
+                                    return (
+                                        <li className="text-white font-spacemono">{movie.name}</li>
+                                    )
+                                })}
+                            </ul>
+                        </div>
                     </section>
                 </div>
             </Layout>
@@ -34,11 +43,11 @@ export default function Categories({ category }) {
 
 export async function getStaticProps({ params }) {
     const categoryId = params.characterId
-    const results = await fetch(`https://seriesofblurs-cms.herokuapp.com/categories?=${params.categoryId}`).then(res => res.json())
+    const results = await fetch(`https://seriesofblurs-cms.herokuapp.com/categories?name=${params.categoryId}`).then(res => res.json())
 
     return {
         props: {
-            category: results
+            category: results[0]
         }
     }
 }
