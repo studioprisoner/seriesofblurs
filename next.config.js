@@ -13,7 +13,7 @@ module.exports = {
     }
 }
 
-const ContentSecurtityPolicy = `
+const ContentSecurityPolicy = `
     default-src 'self' *.seriesofblurs-cms.herokuapp.com;
     script-src 'self' 'unsafe-eval' 'unsafe-inline' *.youtube.com *.twitter.com;
     child-src *.youtube.com *.google.com *.twitter.com;
