@@ -1,6 +1,5 @@
 import Layout from 'components/Layout'
 import Reach from 'components/Reach'
-import Footer from 'components/Footer'
 
 export default function Home() {
 
@@ -17,7 +16,7 @@ export default function Home() {
                                 className="w-3/4 mx-auto"
                             />
                         </h1>
-                        <h2 className="py-6 text-2xl sm:text-3xl text-center sm:text-left text-white font-poppins font-medium uppercase">Video Games &amp; Horror Games</h2>
+                        <h2 className="py-6 text-2xl sm:text-3xl text-center sm:text-left text-white font-poppins font-medium uppercase">Video Games &amp; Horror Movies</h2>
                         <p className="mt-3 mx-w-md mx-auto text-lg text-white sm:text-base md:mt-5 md:max-w-3xl font-spacemono">
                         Follow Series of Blurs for all your horror movie suggestions. This is the place to be for everyone who loves video games,  ghosts, aliens, monsters, flesh-eating-zombies and much more.
                         </p>
