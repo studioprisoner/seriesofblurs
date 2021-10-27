@@ -61,7 +61,7 @@ export default function Reach({ reaches }) {
                                     <p className="ml-16 text-sm font-medium font-spacemono text-white truncate">Total Followers</p>
                                 </dt>
                                 <dd className="ml-16 pb-6 flex items-baseline sm:pb-7 text-white">
-                                    4.1K
+                                    4.3K
                                 </dd>
                             </div>
                             </a>
