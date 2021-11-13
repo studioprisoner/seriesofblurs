@@ -54,7 +54,7 @@ export default function Movies({ categories }) {
     )
 }
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
     const categories = await fetch('https://seriesofblurs-cms.herokuapp.com/categories/').then(res => res.json());
 
     return {
